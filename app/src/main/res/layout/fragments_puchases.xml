@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="@string/purchases"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/purchaseMonthTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/pick_month"
+        android:textColor="#808080"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="400px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/show" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="10px"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40px"
+        android:layout_marginRight="20dp"
+        android:background="#808080" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" />
+
+    <GridView
+        android:id="@+id/purchasesGridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:drawable="@color/white"
+        android:numColumns="2"
+        android:state_pressed="false"
+        android:state_selected="false" />
+
+</LinearLayout>

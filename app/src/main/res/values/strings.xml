@@ -1,0 +1,91 @@
+<resources>
+
+    <string name="app_name">ShopUp</string>
+
+    <string name="product">Produkt</string>
+    <string name="products">Produkty</string>
+    <string name="add_product">Dodaj produkt</string>
+    <string name="show_products">Pokaż produkty</string>
+    <string name="added_product">Dodano produkt</string>
+
+    <string name='purchase'>Zakup</string>
+    <string name="purchases">Zakupy</string>
+    <string name="add_purchases">Dodaj zakupy</string>
+    <string name="show_purchases">Pokaż zakupy</string>
+
+    <string name="name">Nazwa</string>
+    <string name="price">Cena</string>
+    <string name="sale_price">Cena promocyjna</string>
+    <string name="standard_price">Cena standardowa</string>
+    <string name="date">Data</string>
+    <string name="category">Kategoria</string>
+    <string name="store">Sklep</string>
+    <string name="sale">Promocja</string>
+    <string name="add">Dodaj</string>
+    <string name="bar_code">Kod kreskowy</string>
+    <string name="pick_date">Wybierz datę</string>
+    <string name="pick_month">Wybierz miesiąc</string>
+    <string name="cancel">Anuluj</string>
+    <string name="search">Szukaj</string>
+    <string name="search_by">Szukaj po</string>
+    <string name="filter_by">Filtruj po</string>
+    <string name="sort_by">Sortuj po</string>
+    <string name='scanner'>Skaner</string>
+    <string name='settings'>Ustawienia</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="show">Wyświetl</string>
+    <string name="currency">PLN</string>
+    <string name="amount">Kwota</string>
+    <string name="statistics">Statystyki</string>
+    <string name="monthly_frequency_1">Srednio</string>
+    <string name="monthly_frequency_2"> razy na miesiac chodzisz na zakupy.</string>
+    <string name="average_amount">Wydajesz na nie srednio</string>
+    <string name="most_often_bought">Najczęściej kupowany przez ciebie produkt to</string>
+    <string name="you_have_already_spent">Wydałeś na niego już</string>
+    <string name="back">Cofnij</string>
+    <string name="your_favorite_store_is">Twój ulubiony sklep to</string>
+    <string name="add_photo">Dodaj zdjęcie</string>
+    <string name="no_data">Brak danych</string>
+    <string name="delete_product">Usuń produkt</string>
+
+    <!-- INFO -->
+    <string name="info_no_purchases_this_day">Nie zrobiłeś w tym dniu żadnych zakupów</string>
+    <string name="info_found_no_data">Nie znaleziono żadnego rekordu</string>
+    <string name="info_empty_database">Baza danych jest pusta</string>
+
+    <!-- DIALOGS -->
+    <string name="dialog_new_data_title">Nowe dane</string>
+    <string name="dialog_new_category_title">Nowa kategoria</string>
+    <string name="dialog_new_category_message">Wprowadzasz nową kategorię: </string>
+    <string name="dialog_new_store_title">Nowy sklep</string>
+    <string name="dialog_new_store_message">Wprowadzasz nowy sklep:</string>
+
+    <!-- WARNINGS -->
+    <string name="warning_insert_data">Musisz wprowadzić wszystkie dane!</string>
+    <string name="warning_no_camera_permission">Brak uprawnień kamery!</string>
+    <string name="warning_not_all_products_are_correct">Nie wszystkie produkty są poprawne!</string>
+
+    <!-- MONTHS -->
+    <string name="january">Styczeń</string>
+    <string name="february">Luty</string>
+    <string name="march">Marzec</string>
+    <string name="april">Kwiecień</string>
+    <string name='may'>Maj</string>
+    <string name="june">Czerwiec</string>
+    <string name="july">Lipiec</string>
+    <string name="august">Sierpień</string>
+    <string name="september">Wrzesień</string>
+    <string name="october">Październik</string>
+    <string name="november">Listopad</string>
+    <string name="december">Grudzień</string>
+
+    <!-- DAYS_OF_THE_WEEK -->
+    <string name="monday">Poniedziałek</string>
+    <string name="tuesday">Wtorek</string>
+    <string name="wednesday">Sroda</string>
+    <string name="thursday">Czwartek</string>
+    <string name="friday">Piątek</string>
+    <string name="saturday">Sobota</string>
+    <string name="sunday">Niedziela</string>
+</resources>

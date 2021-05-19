@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20px"
+            android:gravity="center_horizontal"
+            android:text="@string/purchases"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/purchasesDateTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px"
+            android:gravity="center_horizontal"
+            android:text="@string/date" />
+
+        <TextView
+            android:id="@+id/purchasesPriceTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px"
+            android:gravity="center_horizontal"
+            android:text="@string/price" />
+
+        <GridView
+            android:id="@+id/searchGridView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numColumns="1">
+
+        </GridView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/menu_top">
+        <item android:id="@+id/nav_scanner"
+            android:title="@string/scanner"/>
+    </group>
+
+    <group
+        android:id="@+id/menu_middle_top">
+        <item android:id="@+id/nav_products"
+            android:title="@string/products"/>
+
+        <item android:id="@+id/nav_purchases"
+            android:title="@string/purchases"/>
+    </group>
+
+    <group
+        android:id="@+id/menu_middle_bottom">
+        <item android:id="@+id/nav_add_product"
+            android:title="@string/add_product"/>
+
+        <item android:id="@+id/nav_add_purchase"
+            android:title="@string/add_purchases"/>
+    </group>
+
+    <group
+        android:id="@+id/menu_bottom">
+        <item android:id="@+id/nav_statistics"
+            android:title="@string/statistics"/>
+    </group>
+
+</menu>

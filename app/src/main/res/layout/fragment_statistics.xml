@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="40px"
+            android:gravity="center_horizontal"
+            android:text="@string/statistics"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="100px"
+            android:layout_weight=".5"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/statisticsMonthlyTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80px"
+                android:layout_marginRight="80px"
+                android:gravity="center_horizontal"
+                android:text="Srednio 5 razy w miesiacu chodzisz na zakupy"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/statisticsAmountTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80px"
+                android:layout_marginTop="150px"
+                android:layout_marginRight="80px"
+                android:gravity="center_horizontal"
+                android:text="Wydajesz na nie srednio 57 PLN"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/statisticsProductTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80px"
+                android:layout_marginTop="150px"
+                android:layout_marginRight="80px"
+                android:gravity="center_horizontal"
+                android:text="Najczesciej kupowany przez ciebie produkt to Chocapici"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/statisticsPriceTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80px"
+                android:layout_marginTop="150px"
+                android:layout_marginRight="80px"
+                android:gravity="center_horizontal"
+                android:text="Wydales juz na niego 169 001 234 PLN"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/statisticsStoreTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80px"
+                android:layout_marginTop="150px"
+                android:layout_marginRight="80px"
+                android:gravity="center_horizontal"
+                android:text="Twoj ulubiony sklep to biedronka"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="40px"
+            android:gravity="center"
+            android:text="@string/back" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
